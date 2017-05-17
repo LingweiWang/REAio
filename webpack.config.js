@@ -19,6 +19,10 @@ const config = {
 				test: /\.jsx?/,
 				include: APP_DIR,
 				loader: 'babel',
+				query:
+				{
+					presets:['react', 'es2015', 'stage-0']
+				}
 			},
 			{
 				test: /\.scss$/,

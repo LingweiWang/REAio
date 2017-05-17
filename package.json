@@ -43,7 +43,7 @@
     "react-dom": "^15.4.2"
   },
   "scripts": {
-    "start": "yarn clean-dist && webpack && webpack-dev-server --inline --hot",
+    "start": "yarn clean-dist && webpack && webpack-dev-server --inline --hot --port 8088",
     "bundle": "webpack",
     "clean-dist": "rm -rf public",
     "server": "webpack-dev-server --inline --hot",
